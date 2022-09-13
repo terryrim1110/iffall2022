@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Ghostbusters (1984)</title>
+        <link rel="shortcut icon" type="image/png" href="file:///Users/terry/Desktop/ghostbusters-1-logo-png-transparent.png"/>
+        <link href="./css/styles.css" rel="stylesheet">
+        <style>
+            p {color:white;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="logo">
+            <!-- <img src="file:///Users/terry/Desktop/ghostbusters.png" /> -->
+        </div>
+        <header style="font-family: Arial, Helvetica, sans-serif">
+            <h1 class="firstparagraph" style="text-align:center">Ghostbusters (1984)</h1>
+        </header>
+        <main>
+                <h2 style="text-align:center">Quotes</h2>
+            <div id="zuul">
+                <p style="text-align:left;" class="firstbody" id="first"><b>Dr. Peter Venkman:</b><br>What I'd really like to do is talk to Dana. Dana? It's Peter.</p>
+                <br>
+                <p style="text-align:right;"> <b>Dana Barrett:</b><br>There is no Dana, there is only Zuul.</p>
+                <br>
+                <p><b>Dr. Peter Venkman:</b><br>Oh, Zuulie, you nut, now c'mon. Just relax, c'mon.<br>I want to talk to Dana. Dana, Dana. Can I talk to Dana?</p>
+                <br>
+                <p style="text-align:right;"><b>Dana Barrett:</b><br>In an inhuman demonic voice There is no Dana, only Zuul!</p>
+                <br>
+                <p><b>Dr. Peter Venkman:</b><br>What a lovely singing voice you must have.</p>
+            </div>
+                <br>
+                <br>
+            <div id="masshysterical">
+                <p style="text-align:right;"><b>Dr. Peter Venkman:</b><br>This city is headed for a disaster of biblical proportions.</p>
+                <p><b>Mayor:</b>What do you mean, 'biblical?'</p>
+                <br>
+                <p style="text-align:right;"><b>Dr Ray Stantz:</b><br>What he means is Old Testament, Mr. Mayor, real wrath of God type stuff.</p>
+                <br>
+                <p style="text-align:right;"><b>Dr. Peter Venkman:</b><br>Exactly.</p>
+                <br>
+                <p style="text-align:right;"><b>Dr Ray Stantz:</b><br>Fire and brimstone coming down from the skies! Rivers and seas boiling!</p>
+                <br>
+                <p style="text-align:right;"><b>Dr. Egon Spengler:</b><br>Forty years of darkness! Earthquakes, volcanoes...</p>
+                <br>
+                <p style="text-align:right;"><b>Winston Zeddemore:</b><br>The dead rising from the grave!</p>
+                <br>
+                <p style="text-align:right;"><b>Dr. Peter Venkman:</b><br>Human sacrifice, dogs and cats living together... mass hysteria!</p>
+                <p><b>Mayor:</b><br>All right, all right! I get the point!</p>
+            </div>
+                <br>
+                <br>
+            <div id="flowers">
+                <p style="text-align:center"><i>[clearing away tables in the dining room to make room for the ghost trap]</i></p>
+                <br>
+                <p><b>Dr. Ray Stantz:</b><br>I've gotta get this in the clear...!</p>
+                <br>
+                <p style="text-align:right;"><b>Dr. Peter Venkman:</b><br> Wait, wait, wait! I've always wanted to do this...</p>
+                <br>
+                <br>
+                <p style="text-align:center"><i>[He yanks a tablecloth off of a table, overturning and shattering everything except the centerpiece in the middle]</i></p>
+                <br>
+                <br>
+                <p style="text-align:right;"><b>Dr. Peter Venkman:</b><br>[triumphantly]<br>And the flowers are still standing!</p>
+            </div>
+                <br>
+    </main>
+    <!-- <footer id="footer">
+        <img class="footer-fit" src="file:///Users/terry/Desktop/ghostbusters.jpg" alt="Ghostbusters"> -->
+    </footer>
+    </body>
+</html>
