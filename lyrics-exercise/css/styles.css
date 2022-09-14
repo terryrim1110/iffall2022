@@ -1,0 +1,58 @@
+.video {
+    /* background:url("file:///Users/terry/Downloads/Daniel%20Caesar%20-%20Get%20You%20ft.%20Kali%20Uchis%20[Official%20Video].mp4"); */
+    /* background-position:center; */
+    position: absolute;
+    background-color: black;
+    margin-left: 270px;
+}
+
+/* #backgroundmv {
+background:url("file:///Users/terry/Downloads/Daniel%20Caesar%20-%20Get%20You%20ft.%20Kali%20Uchis%20[Official%20Video].mp4");
+background-position:right;
+background-size:50%;
+background-attachment:fixed;
+
+} */
+
+h1 {
+    color:white;
+}
+
+p {
+    color:white;
+    font-size:15px;
+}
+
+h2{
+    color:white;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+  }
+
+body {
+    background-color:black;
+}
+
+.content-box{
+    position: absolute;
+    z-index: 1;
+}
+.content{
+    text-align: center;
+    margin-left: 35px;
+}
+.song-title{
+    position: absolute;
+    text-align: center;
+    z-index: 2;
+    background-color: black;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.video{
+    margin-top: 7%;
+}
