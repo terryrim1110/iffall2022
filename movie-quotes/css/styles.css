@@ -1,0 +1,108 @@
+
+#logo {
+    max-width: 100%;
+    margin:auto;
+    height:100px;
+    background: url("file:///Users/terry/Desktop/ghostbusters.png");
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+}
+head {
+    color:white;
+}
+
+p {
+    margin-top: 0px;
+    margin-right: 50px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+}
+
+p {
+    color:white;
+    font-size:15px;
+}
+
+.firstparagraph{
+    color:white;
+}
+
+h2{
+    color:white;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+body {
+    background-color:black;
+}
+
+/*   
+body{
+    background-image: url('file:///Users/terry/Desktop/DescriptiveFlakyAnemonecrab-size_restricted.gif');
+    background-size: contain;
+    
+    max-width: 50%;
+    height: auto;
+    margin: auto;
+
+    height: 100vh;
+    padding:0;
+    margin:0;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+body{
+    background-image: url('file:///Users/terry/Desktop/AliveTatteredAsiantrumpetfish-size_restricted.gif');
+    background-size: cover;
+    
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+
+    height: 100vh;
+    padding:0;
+    margin:0;
+    background-position: center;
+    background-repeat: no-repeat;
+} */
+
+body, html {
+    height:100%;
+    width:100%;
+    margin:0;
+}
+#zuul {
+    height:50%;
+    width:100%;
+    background: url('file:///Users/terry/Desktop/DescriptiveFlakyAnemonecrab-size_restricted.gif') no-repeat 50%/cover;
+}
+#masshysterical {
+    height:100%;
+    width:100%;
+    background: url('file:///Users/terry/Desktop/AliveTatteredAsiantrumpetfish-size_restricted.gif') no-repeat 50%/cover;
+}
+#flowers {
+    height:100%;
+    width:100%;
+    background: url('file:///Users/terry/Desktop/ClosedDismalChimneyswift-size_restricted.gif') no-repeat 50%/cover;
+}
+
+/* footer#footer {
+    /* background-image: url(file:///Users/terry/Desktop/ghostbusters.jpg); */
+    /* background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+
+/* img.footer-fit { */
+    /* width: 1091px; */
+    /* max-width: 100%;
+    height: auto;
+    margin: auto;
+    object-fit: contain;
+} */ 
