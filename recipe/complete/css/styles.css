@@ -1,0 +1,590 @@
+html {
+    font-family:Arial, Helvetica, sans-serif;
+    color:red;
+}
+
+body {
+    display: inline-block;
+    margin: 10px;
+}
+
+/* TITLE */
+
+.content-area {
+    margin-left: auto;
+    margin-right: auto;
+    width:80%;
+    /* width:min-content 375px;
+    width:max-content 1920px; */ 
+    position:relative;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+}
+
+#image-contents {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    font-size: 4rem;
+    color: red;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+
+.topbar-container{
+    display:flex;
+    /* flex-direction: center; */
+    justify-content: space-between;
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+}
+
+.topbar-right{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left:20px;
+}
+.topbar-left{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+#topbar-left{
+    display: flex;
+    justify-content: flex-start;
+}
+.text {
+    margin-top: 2.3%;
+    align-content: center;
+}
+#tobar-right{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+
+
+#topbar {
+    margin-left:auto;
+    margin-right:auto;
+    width:70%;
+}
+
+.topbar {
+    display: flex;
+    align-items: center;
+    width:100%;
+}
+
+#jumptoreviews {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left:15px;
+    height: 40%;
+}
+
+li {
+    list-style-type: none;
+    line-height: 25px;
+    /* width: 10%; */
+}
+
+#stars {
+    font-size: 25px;
+    padding-top:4px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* #jumptoreviews {
+    width:15%;
+} */
+
+.image-panel {
+    margin-top: 1%;
+}
+
+.empty {
+    border-style: solid;
+    border-width: 0.1em;
+    border-radius: 50px;
+    text-align: center;
+    /* padding: 2px 15px; */
+    padding: 0.1em 0.9em;
+    margin-left:10px;
+}
+
+#preptime {
+    margin-left:-5px;
+}
+
+.button {
+    color: white;
+    background-color: red ;
+    /* padding: 2px ; */
+    border: 2px solid red ;
+    border-radius: 50px;
+    text-align:center;
+    padding: 0.1em 0.9em;
+}
+
+.topimage {
+    display: block;
+    margin-left: 7%;
+    margin-right: 1%;
+    margin-top:50px;
+    width:80%;
+}
+
+div.sidebuttons-group {
+    text-align: right;
+    /* width: 15%; */
+    height:40%;
+    /* position: absolute; */
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+img.sidebuttons {
+    width: 35px;
+    height: 35px;
+    flex-direction:column;
+    margin-top:10px;
+}
+
+div.arrows-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+#arrow-left {
+    /* margin-top: 220px; */
+    margin-top: auto;
+    margin-bottom: auto;
+    display:flex;
+    flex-wrap: wrap;
+    /* margin-left:300px; */
+}
+
+#arrow-right {
+    /* margin-top: 220px; */
+    margin-top: auto;
+    margin-bottom: auto;
+    flex-wrap: wrap;
+    /* margin-left:800px; */
+    vertical-align: middle;
+}
+
+img.arrows {
+    width: 45px;
+    height: 45px;
+    /* flex-direction:row; */
+}
+
+div.intro {
+    margin-top: 50px;
+    text-align: center;
+}
+
+p.intro {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:12pt;
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+}
+
+/* CHECKLISTS */
+
+h2 {
+    font-size: 22px;
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+}
+
+h2.empty {
+    margin: 1rem 0 2rem 0;
+}
+
+h3 {
+    font-size: 18px;
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    margin:0;
+}
+
+h2#instructions {
+    text-align: center;
+    margin-top:85px;
+    margin-bottom:50px;
+    margin-left:auto;
+    margin-right:auto;
+    width:13.5rem;
+}
+
+#checklists {
+    display:flex; 
+    width:70%;
+    margin-top:40px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+@media (max-width: 500px){
+    #checklists {
+    font-size: 15px;
+    }
+}
+
+@media (max-width: 970px){
+    h2 {
+    font-size: 18px;
+    }
+}
+
+#ingredients {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type=checkbox] {
+    background-color:red;
+    border-color: red;
+}
+
+/* #equipments-textbox {
+    margin-top:4.73rem;
+} */
+/* #table, th, td {
+    border: 1.5px solid red;
+    border-collapse:collapse;
+  } */
+
+#steptitle {
+    text-align: center;
+}
+
+#stepimages {
+    width: auto;
+    height:10rem;
+    margin-left: auto;
+    margin-right:auto;
+    /* padding-left: 3rem; */
+
+}
+
+#steptext {
+    font-size: 0.9rem;
+    line-height:1rem;
+}
+.autogrid {
+    --auto-grid-min-size: 16rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+    grid-gap: 1rem;
+    padding:0;
+  }
+
+  @media (max-width: 785px){
+    .autogrid {
+    --auto-grid-min-size: 20rem;
+    display:block;
+    width:40%;
+    margin-left:auto;
+    margin-right:auto;
+    }
+}
+
+li #individualgrid {
+    padding: 5rem 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+    background: white;
+    outline: 1px;
+    color: red;
+    /* display:flexbox; */
+}
+
+#imagecontainer {
+    margin:0;
+    text-align:center;
+}
+
+/* REVIEW */
+
+p#reviewtitle {
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    font-size:2rem;
+    text-align:center;
+    margin-top:5rem;
+    margin-bottom:0;
+}
+
+#reviewstars {
+    text-align: center;
+    font-size:2.5rem;
+    margin-top:1rem;
+}
+
+#box {
+    display:flex;
+    justify-content: center;
+}
+
+#typebox {
+    text-align: left;
+}
+
+textarea {
+    border-color: red;
+    border-width: 0.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:0.9rem;
+    color:red;
+    text-align: left;
+    padding:0.5rem 0.8rem;
+}
+
+textarea::placeholder {
+    font-style: italic;
+    font-size:15px;
+    color: red;
+}
+
+input {
+    padding-left:3px;
+}
+
+p#submit {
+    font-size:1.1em;
+    margin:0;
+}
+
+#submitbutton {
+    color: white;
+    background-color: red ;
+    border: 2px solid red ;
+    border-radius: 50px;
+    text-align:center;
+    padding: 0.2em 0.3em;
+    width:8rem;
+    margin-top:1.8rem;
+    margin-bottom:1.8rem;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+@media (max-width:1020px) {
+    .topbar-container > div{
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .topbar-container{
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:3%;
+    }
+    .topbar-right{
+        /* display:block; */
+        margin-left:auto;
+        margin-right:auto;
+        justify-content: center;
+        padding: 0;
+    }
+    .topbar-left{
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    #jumptoreviews {
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 15px;
+        height: 70%;
+    }
+}
+
+@media (max-width: 815px){
+    h1 {
+    font-size: 3rem;
+    }
+
+    #checklists {
+        display:flex; 
+        width:75%;
+        margin-top:40px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .autogrid {
+        width: 55%;
+        margin-left:auto;
+        margin-right: auto;
+    
+    }
+    
+    #stepimages {
+        height:15rem;
+        margin-bottom: 7%;
+    }
+    
+    #steptext {
+        font-size: 1.2rem;
+        line-height: 1.3rem;
+        text-align: center;
+        margin-bottom:22%;
+    }
+    
+    #steptitle {
+        font-size: 1.5rem;
+        margin-top:3%;
+    }
+    
+    div.arrows-group {
+        width: 100%;
+        margin-right: 6%;
+        margin-left: 0%;
+    }
+    
+    textarea::placeholder {
+        font-style: italic;
+        font-size:18px;
+        color: red;
+    }
+    
+}
+
+
+/* WIDTH:500 */
+
+@media (max-width: 500px){
+    /* body {
+        width:100%;
+        margin:0;
+    } */
+
+    .panel {
+        width:100%;
+
+    }
+    #image-contents {
+        width: 80%;
+    }
+
+    div.intro {
+        width:100%;
+        margin-top:7%;
+    }
+
+    .content-area {
+        width:100%;
+        /* margin:0; */
+    }
+
+    h1 {
+    font-size: 3rem;
+    width:100%;
+    margin-right: auto;
+    margin-left: auto;
+    }
+
+    .topimage {
+        width:67%;
+        margin-left: 5%;
+    }
+
+    h2.empty{
+        display:flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        width:60%;
+        /* margin-left: auto;
+        margin-right: auto; */
+    }
+
+    h2#instructions {
+        width:43%;
+    }
+
+    h3 {
+        text-align: left;
+        margin-right: auto;
+        margin-left: auto;
+        /* width:37%; */
+        padding-left:5%;
+    }
+  
+    .smalltext {
+        text-align: left;
+        margin-right: auto;
+        margin-left: auto;
+        /* width:37%; */
+        padding-left:5%;
+        font-size: 1.1rem;
+    }
+    
+    #checklists {
+    display:block;
+    text-align:left;
+    margin-left: 20%;
+    }
+
+    #information, #ingredients, #equipments {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom:5%;
+        margin-left:10%;
+    }
+    .sidebuttons {
+        display:none;
+    }
+
+    #box, textarea {
+        display:block;
+        width:90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .autogrid {
+        width:65%;
+
+    }
+
+    #stepimages {
+        height:12rem;
+    }
+
+    #steptext {
+        font-size: 1.1rem;
+        line-height: 1.2rem;
+        text-align: center;
+        margin-bottom:22%;
+    }
+
+    #steptitle {
+        font-size: 1.5rem;
+        margin-top:16%;
+    }
+
+    div.arrows-group {
+        width: 100%;
+        margin-right: 6%;
+        margin-left: 0%;
+    }
+}
