@@ -1,0 +1,55 @@
+html {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+body {
+    margin:0;
+}
+
+header {
+    background-image: url(/Users/terry/Desktop/iffall2020/publish/microsite/mockups-a/images/pouring-tea.gif);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center; 
+    margin:0;
+    height:auto;
+}
+
+#homepage .content-area {
+    height:1600px;
+}
+
+h1 {
+    font-size:350px;
+    color:white;
+    font-weight:lighter;
+    margin:0;
+    text-align: right;
+    padding-top:30px;
+}
+
+h2 {
+    font-size:50px;
+    font-weight:lighter;
+    color:white;
+    padding-left:30px;
+    padding-top:75px;
+    text-align: center;
+}
+
+.italics {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size:55px;
+}
+
+/* .content-area {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0;
+}
+
+#intro .content-area {
+    text-align:center;
+} */
