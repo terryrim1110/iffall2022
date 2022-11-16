@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tea Website</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <!-- <font-family: 'Arial Black', Gadget, sans-serif;></font-family:> -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script>
+            $(document).ready( function() {
+                $(".external").singlePageNav({filter: ':not(.external)'});
+            });
+        </script>
+    </head>
+    <body>
+        <header id="intro" class="panel">
+            <div id="header">
+                <nav id="main-nav" class="external">
+                    <ul>
+                        <li class="homebutton"><a href="index.html" class="homebutton"><img class="homebuttonimage" src="images/teacup-blue.png"></a></li>
+                        <li class="regularbutton"><a href="history.html" class="regularbutton">History</a></li>
+                        <li class="regularbutton"><a href="types.html" class="regularbutton">Types</a></li>
+                        <li class="regularbutton"><a href="production.html" class="regularbutton">Production</a></li>
+                        <li class="regularbutton"><a href="culture.html" class="regularbutton">Culture</a></li>
+                        <li class="regularbutton"><a href="source.html" class="regularbutton">Source</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div id="landingpage" class="content-area">
+            <h1 id="landingpage">
+                spill the
+            </h1>
+            <div class="imagecontent">
+                <img class=homepageimage id="beforespill" src="./images/teacup-blue.png">
+            </div>
+            <h1 id="landingpage" class="italics">
+                tea
+            </h1>
+        </div>
+
+    </body>
+    <footer>
+
+    </footer>
+</html>
