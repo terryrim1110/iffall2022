@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tea Website</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <!-- <font-family: 'Arial Black', Gadget, sans-serif;></font-family:> -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script>
+            $(document).ready( function() {
+                $(".external").singlePageNav({filter: ':not(.external)'});
+            });
+        </script>
+    </head>
+    <body>
+        <header id="intro" class="panel">
+            <div id="header">
+                <nav id="main-nav" class="external">
+                    <ul class="list">
+                        <li class="homebutton buttonitems"> <a href="index.html" class="homebutton">
+                            <div class="homebuttonimages">
+                                <img class="homebuttonimage" src="images/teacup-blue.png">
+                                <img class="homebuttonimage-hover" src="images/teacup.png">
+                            </div>
+                        </a></li>
+                        <li class="regularbutton buttonitems"><a href="history.html" id=historybutton class="regularbutton">History</a></li>
+                        <li class="regularbutton buttonitems"><a href="types.html" class="regularbutton">Types</a></li>
+                        <li class="regularbutton buttonitems"><a href="production.html" class="regularbutton">Production</a></li>
+                        <li class="regularbutton buttonitems"><a href="culture.html" class="regularbutton">Culture</a></li>
+                        <li class="regularbutton buttonitems"><a href="source.html" class="regularbutton">Source</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+ 
+        <div class="mobile-header">
+                <img class="homebuttonimage" src="images/teacup-blue.png">
+                <img class="homebuttonimage-hover" src="images/teacup.png">
+                <button class="hamburger">Menu</button>
+        </div>
+
+        <div id="landingpage" class="content-area">
+            <h1 id="landingpage">
+                spill the
+            </h1>
+            <div class="imagecontent">
+                <img class=homepageimage id="beforespill" src="./images/teacup-blue.png">
+            </div>
+            <h1 id="landingpage" class="italics">
+                tea
+            </h1>
+        </div>
+        <footer>
+            <div class="footerbox">
+                <div class="logobox">
+                    <img class="logoimage" src="./images/teacup-blue.png">
+                </div>
+                <div class="footer">
+                    <ul class="footernav">
+                        <li class="footernav-item"><a href="index.html">Home</a></li>
+                        <li class="footernav-item"><a href="history.html">History</a></li>
+                        <li class="footernav-item"><a href="types.html">Types</a></li>
+                        <li class="footernav-item"><a href="production.html">Production</a></li>
+                        <li class="footernav-item"><a href="culture.html">Culture</a></li>
+                        <li class="footernav-item"><a href="source.html">Source</a></li>
+                    </ul>
+                    <p class="copyright">Copyright © 2022 <br> Creative Director: Chelsea Yuan / Designer: Terry Rim</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+    
+</html>
