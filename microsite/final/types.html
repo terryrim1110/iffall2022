@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tea Website</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+       
+    </head>
+    <body>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="script/script.js"></script>
+    
+        <header id="intro" class="panel">
+            <div id="header">
+                <nav id="main-nav" class="external">
+                    <ul class="list">
+                        <li class="homebutton buttonitems">
+                            <a href="index.html" class="homebutton">
+                                <div class="homebuttonimages">
+                                    <img class="homebuttonimage" src="images/teacup-blue.png">
+                                    <img class="homebuttonimage-hover" src="images/teacup.png">
+                                </div>
+                            </a>
+                        </li>
+                        <li class="regularbutton buttonitems"><a href="history.html" id="historybutton"class="regularbutton">History</a></li>
+                        <li class="regularbutton buttonitems"><a href="types.html" class="regularbutton">Types</a></li>
+                        <li class="regularbutton buttonitems"><a href="production.html" class="regularbutton">Production</a></li>
+                        <li class="regularbutton buttonitems"><a href="culture.html" class="regularbutton">Culture</a></li>
+                        <li class="regularbutton buttonitems"><a href="source.html" class="regularbutton">Source</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="mobile-header">
+                <a href="index.html" class="homebutton">
+                    <div class="homebuttonimages-mobile">
+                        <img class="homebuttonimage" src="images/teacup-blue.png"/>
+                        <img class="homebuttonimage-hover" src="images/teacup.png">
+                    </div>
+                </a>
+                <div class="mobile-header-contents">
+                    <button class="hamburger">
+                        <i class="menuIcon material-icons">menu</i>
+                        <i class="closeIcon material-icons">close</i>
+                    </button>
+                    <ul class="mobile-menu-list">
+                      <!-- <a href="javascript:void(0)" class="closebtn">&times;</a> -->
+                      <li>
+                        <a class="menuItem" href="history.html">History</a>
+                      </li>
+                      <li>
+                        <a class="menuItem" href="types.html">Types</a>
+                      </li>
+                      <li>
+                        <a class="menuItem" href="production.html">Production</a>
+                      </li>
+                      <li>
+                        <a class="menuItem" href="culture.html">Culture</a>
+                      </li>
+                      <li>
+                        <a class="menuItem"href="source.html">Source</a>
+                      </li>
+                    </ul>
+                </div>
+            
+            </div>
+        </header>
+ 
+        <div id="types" class="titlepanel">
+            <div class="imagecontent typesbg">
+
+                <div class="ellipse">
+                    <h1 class="italics">
+                        types
+                    </h1>
+                </div>
+
+            </div>
+        </div>
+        
+        <div class="subtitle">
+            <h2>
+                Types of Tea
+            </h2>
+        </div>
+
+        <div class="content-area">
+            <div class="content-types">
+
+                <p>Tea is generally divided into categories based on how it is processed. After picking, the leaves of the tea plant (Camellia sinensis) soon begin to wilt and oxidize unless immediately dried. An oxidation process is triggered by the plant’s enzymes that causes the leaves to turn darker. This darkening can be stopped at a predetermined stage by heating, so in the production of black teas, halting by heating is carried out to produce the desired tea.</p>
+
+            </div>
+        </div>
+
+        <section id="cards" class="content-area">
+            <div class="content-area">
+                <div id="grid">
+                    <ul class="autogrid">
+
+                        <!-- WHITE -->
+                        <li class="individualgrid">
+                            <h2 class="cardtitle">White Tea</h2>
+                            <div class=imagecontainer>
+                                <img class="cardimage" src="./images/whitetea-and-leaf.png" alt="white tea and leaf">
+                            </div>
+                            <p class="cardtext">wilted and unoxidized</p>
+                        </li>
+
+                        <!-- YELLOW -->
+                        <li class="individualgrid">
+                            <h2 class="cardtitle">Yellow Tea</h2>
+                            <div class=imagecontainer>
+                                <img class="cardimage" src="./images/yellowtea-and-leaf.png" alt="yellow tea and leaf">
+                            </div>
+                            <p class="cardtext">Unwilted and unoxidized, 
+                                <br>but allowed to yellow</p>
+                        </li>
+
+                        <!-- GREEN -->
+                        <li class="individualgrid">
+                            <h2 class="cardtitle">Green Tea</h2>
+                            <div class=imagecontainer>
+                                <img class="cardimage" src="./images/greentea-and-leaf.png" alt="green tea and leaf">
+                            </div>
+                            <p class="cardtext">Unwilted and unoxidized</p>
+                        </li>
+
+                        <!-- OOLONG -->
+                        <li class="individualgrid">
+                            <h2 class="cardtitle">Oolong Tea</h2>
+                            <div class=imagecontainer>
+                                <img class="cardimage" src="./images/oolongtea-and-leaf.png" alt="oolong tea and leaf">
+                            </div>
+                            <p class="cardtext"> Wilted, bruised, and 
+                                <br>partially oxidized</p>
+                        </li>
+
+                        <!-- DARK -->
+                        <li class="individualgrid">
+                            <h2 class="cardtitle">Dark Tea</h2>
+                            <div class=imagecontainer>
+                                <img class="cardimage" src="./images/darktea-and-leaf.png" alt="dark tea and leaf">
+                            </div>
+                            <p class="cardtext">Unwilted and unoxidized</p>
+                        </li>
+
+                        <!-- BLACK -->
+                        <li class="individualgrid">
+                            <h2 class="cardtitle">Black Tea</h2>
+                            <div class=imagecontainer>
+                                <img class="cardimage" src="./images/blacktea-and-leaf.png" alt="black tea and leaf">
+                            </div>
+                            <p class="cardtext">Wilted, sometimes crushed, fully oxidized. <br>
+                                Called [hóngchá] in East Asia</p>
+                        </li>
+                    </ul>
+                </div>
+        </section>
+        <footer>
+            <div class="footerbox">
+                <div class="logobox">
+                    <img class="logoimage" src="./images/teacup-blue.png">
+                </div>
+                <div class="footer">
+                    <ul class="footernav">
+                        <li class="footernav-item"><a href="index.html">Home</a></li>
+                        <li class="footernav-item"><a href="history.html">History</a></li>
+                        <li class="footernav-item"><a href="types.html">Types</a></li>
+                        <li class="footernav-item"><a href="production.html">Production</a></li>
+                        <li class="footernav-item"><a href="culture.html">Culture</a></li>
+                        <li class="footernav-item"><a href="source.html">Source</a></li>
+                    </ul>
+                    <p class="copyright">Copyright © 2022 <br> Creative Director: Chelsea Yuan / Designer: Terry Rim</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
